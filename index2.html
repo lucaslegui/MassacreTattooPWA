@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
+    <link rel="stylesheet" href="stylo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" rel="stylesheet">
+    <title>Massacre tattoo Studio (Bootstrap+PWA Edition)</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark border-bottom border-bottom-dark navbar-transparent">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/logo.png" alt="Logo Massacre Tattoo Studio" width="300" height="150"
+                        class="d-block img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-danger"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#servicios">Servicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#galeria">Fotos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#historia">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#video">Video</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacto">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="banner container d-flex flex-column align-items-center justify-content-center">
+            <h2 class="display-3">MASSACRE</h2>
+            <h3 class="display-5 text-light">Tattoo Studio</h3>
+            <h4 class="text-light">(Est. 1990)</h4>
+            <p class="text-menu text-light">
+                "Inspirando tu piel, plasmando tu esencia: ¡Arte y tinta que
+                perduran!"
+            </p>
+            <a href="#contacto">Reserva tu cita ahora</a>
+        </div>
+    </header>
+    <main>
+        <section class="servicios" id="servicios">
+            <div class="presentacion-servicios">
+                <h2 class="text-center text-white m-5">NUESTROS SERVICIOS</h2>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="assets/tattoo.png" alt="maquina de tatuar dibujo" class="card-img-top img-cards">
+                            <div class="card-body">
+                                <h3 class="card-title">Tattoos</h3>
+                                <p class="card-text">¿Cuántos estilos de tatuaje existen?</p>
+                                <p class="card-text">
+                                    Realista, old School o Tradicional, Neotradicional, Blackwork,
+                                    Dotwork, Japonés, Tribal o Borneo, Acuarela.
+                                </p>
+                                <p class="card-text">
+                                    Nos especializamos en todo tipo de tatuajes, tenemos propuestas
+                                    para cada estilo. ¡Tráenos tu diseño o te lo diseñamos a tu
+                                    medida y gustos, contamos con los mejores artistas para hacerlo!
+                                </p>
+                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
+                                        class="fa fa-skull hover-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="assets/piercing.png" alt="piercing dibujo" class="card-img-top img-cards">
+                            <div class="card-body">
+                                <h3 class="card-title">Piercing</h3>
+                                <p class="card-text">Para colocar el perforado, primero se marca con un bolígrafo
+                                    especial, el lugar a perforar, luego se pasa a perforar con la aguja. Según el
+                                    lugar, el proceso puede variar.</p>
+                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
+                                        class="fa fa-skull hover-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="assets/borrado.png" alt="dibujo goma borrando tatuaje"
+                                class="card-img-top img-cards">
+                            <div class="card-body">
+                                <h3 class="card-title">Borrado de tatuajes con láser</h3>
+                                <p class="card-text">La tarea del láser es micropulverizar esas partículas de tinta. Al
+                                    ser más pequeñas, pueden ser eliminadas por los macrófagos, unos glóbulos blancos
+                                    que -además de destruir microorganismos presentes en la sangre- extraen las células
+                                    muertas. Es decir, “limpian” el organismo.</p>
+                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
+                                        class="fa fa-skull hover-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 mb-4">
+                        <div class="card">
+                            <img src="assets/jewelry.png" alt="dientes con diamantes dibujo"
+                                class="card-img-top img-cards">
+                            <div class="card-body">
+                                <h3 class="card-title">Jewelry</h3>
+                                <p class="card-text">Las gemas dentales son incrustaciones de joyas de diamantes de
+                                    imitación que se adhiere a la superficie del diente por medio de un adhesivo.</p>
+                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
+                                        class="fa fa-skull hover-icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria" id="galeria">
+            <div class="presentacion-servicios">
+                <h2 class="text-center text-white m-5">ALGUNOS DE NUESTROS CLIENTES</h2>
+            </div>
+            <div class="container my-4">
+                <div id="carouselGallery" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/tattoos-img/tatto1.webp" class="d-block mx-auto" alt="tatuaje dragon">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/tattoos-img/tatto2.webp" class="d-block mx-auto" alt="tatuaje lobo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/tattoos-img/tatto3.webp" class="d-block mx-auto"
+                                alt="tatuaje copa del mundo">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/tattoos-img/piercing1.webp" class="d-block mx-auto" alt="piercing aro">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/tattoos-img/piercing2.webp" class="d-block mx-auto" alt="piercing lengua">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/tattoos-img/theet.webp" class="d-block mx-auto"
+                                alt="foto dientes con enchapado">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselGallery"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <!-- <span class="visually-visible">Anterior</span> -->
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselGallery"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <!-- <span class="visually-visible">Siguiente</span> -->
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section id="historia">
+            <div class="presentacion-servicios container">
+                <h2 class="text-center text-white m-5 pt-5">NUESTRA HISTORIA</h2>
+            </div>
+            <div class="accordion container" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                            aria-controls="panelsStayOpen-collapseOne">
+                            EL comienzo
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p> <span>E</span>n 1990, en una pequeña ciudad llena de arte y pasión, nació un estudio de
+                                tatuajes que
+                                cambiaría la forma en que las personas ven y experimentan el arte corporal. "Massacre
+                                Tattoo Studio" fue
+                                fundado por un grupo de entusiastas del arte corporal que buscaban desafiar las
+                                convenciones y elevar la
+                                calidad y la creatividad en el mundo del tatuaje. Desde entonces, el estudio ha crecido
+                                y evolucionado, pero
+                                siempre ha mantenido su espíritu original y su enfoque en la innovación.</p>
+                            <p>
+                                Desde el principio, Massacre Tattoo Studio se ha enorgullecido de ofrecer una amplia
+                                variedad de servicios a
+                                sus clientes. No solo se especializan en tatuajes de alta calidad y personalizados, sino
+                                que también ofrecen
+                                servicios de piercing, borrado de tatuajes con láser y modificaciones corporales. Esta
+                                diversidad de
+                                habilidades y técnicas les permite satisfacer las necesidades y deseos únicos de cada
+                                cliente que visita su
+                                estudio.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseTwo">
+                            Primeros pasos
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>
+                                A lo largo de los años, Massacre Tattoo Studio ha atraído a talentosos artistas del
+                                tatuaje y profesionales de
+                                modificaciones corporales de todo el mundo. Estos artistas aportan una gran variedad de
+                                estilos y enfoques al
+                                estudio, asegurando que siempre haya alguien disponible para crear el diseño perfecto
+                                para cada cliente. Ya
+                                sea un tatuaje tradicional, un diseño tribal, o incluso una pieza de arte abstracto,
+                                Massacre Tattoo Studio
+                                tiene a un artista que puede hacer realidad cualquier sueño.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                            aria-controls="panelsStayOpen-collapseThree">
+                            Nuesrta filosofía
+                        </button>
+                    </h2>
+                    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <p>
+                                Una parte fundamental de la filosofía de Massacre Tattoo Studio es la creencia en la
+                                importancia de la
+                                educación y la innovación en la industria del tatuaje. Siempre están buscando nuevas
+                                técnicas y enfoques para
+                                mejorar su trabajo y garantizar la seguridad y satisfacción de sus clientes. Por
+                                ejemplo, han sido pioneros en
+                                la adopción de tecnologías de borrado de tatuajes con láser, lo que les permite ofrecer
+                                a sus clientes una
+                                forma efectiva y segura de eliminar tatuajes no deseados o antiguos
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+          
+
+        <section class="video-section container m-5" id="video">
+            <div class="presentacion-servicios">
+                <h2 class="text-center text-white m-5 pt-5">NUESTRO ESTUDIO EN ACCIÓN</h2>
+            </div>
+            <div class="video d-flex justify-content-center">
+
+                <button type="button" class="btn btn-outline-danger btn-lg" data-bs-toggle="modal"
+                    data-bs-target="#videoModal">
+                    Ver video
+                </button>
+            </div>
+            <div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Video</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="embed-responsive embed-responsive-16by9">
+                                <iframe width="760" height="315" class="embed-responsive-item" id="videoIframe"
+                                    src="https://www.youtube.com/embed/st2GHdl0YlU?controls=0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="Reservas container" id="contacto">
+            <div class="presentacion-servicios">
+                <h2 class="text-center text-white text-xl  mb-5">RESERVÁ TU CITA</h2>
+            </div>
+            <div class="row">
+                <article class="contacto col-md-6">
+                    <h2 class="titulo-contacto text-white-50 mb-5">Contacto</h2>
+                    <form action="enviar.php" method="post">
+
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-primary text-white"><i
+                                    class="bi bi-person-fill"></i></span>
+                            <input type="text" class="form-control rounded-end" id="nombre" name="nombre" required
+                                placeholder="Nombre">
+                        </div>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-primary text-white"><i
+                                    class="bi bi-person-fill"></i></span>
+                            <input type="text" class="form-control rounded-end" id="apellido" name="apellido" required
+                                placeholder="Apellido">
+                        </div>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-primary text-white"><i
+                                    class="bi bi-telephone-fill"></i></span>
+                            <input type="tel" class="form-control rounded-end" id="telefono" name="telefono" required
+                                placeholder="Teléfono">
+                        </div>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-primary text-white"><i
+                                    class="bi bi-envelope-fill"></i></span>
+                            <input type="email" class="form-control rounded-end" id="mail" name="mail" required
+                                placeholder="Mail">
+                        </div>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-primary text-white"><i class="bi bi-calendar3"></i></span>
+                            <input type="date" class="form-control rounded-end" id="fecha" name="fecha" required>
+                        </div>
+                        <div class="mb-3 input-group">
+                            <label for="opciones" class="input-group-text bg-primary text-white"><i
+                                    class="bi bi-list-check"></i></label>
+                            <select class="form-select rounded-end" id="opciones" name="opciones" required>
+                                <option value="">Elige a tu Artista</option>
+                                <option value="opcion1">Mauricio</option>
+                                <option value="opcion2">Lola</option>
+                                <option value="opcion3">Leonardo</option>
+                                <option value="opcion4">Martin</option>
+                                <option value="opcion5">Gerson</option>
+                            </select>
+                        </div>
+                        <div class="mb-3 input-group">
+                            <span class="input-group-text bg-primary text-white"><i
+                                    class="bi bi-chat-square-dots-fill"></i></span>
+                            <textarea class="form-control rounded-end" id="mensaje" name="mensaje" rows="3"
+                                placeholder="Mensaje"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-lg btn-block btn-primary hover-icon-btn">Reservar <i
+                                class="fa fa-skull hover-icon"></i></button>
+                    </form>
+
+                </article>
+
+                <article class="mapa col-md-6">
+                    <h2 class="titulo-contacto  text-white-50 mb-5">Nuestra Ubicación</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.313440428647!2d-58.69293692358027!3d-34.54802046583773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbc551c76af03%3A0x51e66e7a10931d03!2sATB%2C%20M.%20A.%20Gorosito%2075%2C%20B1661%20Bella%20Vista%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1683779898173!5m2!1ses-419!2sar"
+                        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                    <p>Calle M. A. Gorosito 75, Bella Vista (San Miguel) 1663 - Buenos Aires Agentina</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                    <h5 class="text-uppercase">Lucas Leguizamón</h5>
+                    <p>
+                        Segundo Parcial - Interacción con dispositivos moviles | <strong>DWN2BP</strong> | Prof.: Camila
+                        Marcos Galbán </p>
+                </div>
+                <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
+                    <h5 class="text-uppercase mb-0">Redes Sociales</h5>
+                    <ul class="list-unstyled">
+                        <li class="my-2">
+                            <a href="https://www.instagram.com/lucaslegui.jpg/" class="text-dark"><i
+                                    class="bi bi-instagram"></i> Instagram</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="https://github.com/lucaslegui/" class="text-dark"><i class="bi bi-github"></i>
+                                Github</a>
+                        </li>
+                        <li class="my-2">
+                            <a href="https://twitter.com/lucaslegui1107" class="text-dark"><i class="bi bi-twitter"></i>
+                                Twitter</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        </div>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 - Escuela Da Vinci
+        </div>
+    </footer>
+    <!-- javascript -->
+    <script src="https://kit.fontawesome.com/167f6d5e62.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+    <script src="js.js"></script>
+
+</body>
+
+</html>

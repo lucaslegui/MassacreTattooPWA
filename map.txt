@@ -1,0 +1,54 @@
+hero con imagen
+servicios > tattoo, pircing, perforaciones, body esculture
+galeria de imagenes
+artistas
+contacto
+footer
+
+font: Inter, disenada para la web, multilenguaje y muchos pesos y variaciones
+gothic One, para el logo
+
+<form action="enviar.php" method="post">
+      
+                  <div class="mb-3 input-group">
+                    <span class="input-group-text bg-primary text-white"><i class="bi bi-person-fill"></i></span>
+                    <input type="text" class="form-control rounded-end" id="nombre" name="nombre" required
+                      placeholder="Nombre">
+                  </div>
+                  <div class="mb-3 input-group">
+                    <span class="input-group-text bg-primary text-white"><i class="bi bi-person-fill"></i></span>
+                    <input type="text" class="form-control rounded-end" id="apellido" name="apellido" required
+                      placeholder="Apellido">
+                  </div>
+                  <div class="mb-3 input-group">
+                    <span class="input-group-text bg-primary text-white"><i class="bi bi-telephone-fill"></i></span>
+                    <input type="tel" class="form-control rounded-end" id="telefono" name="telefono" required
+                      placeholder="Teléfono">
+                  </div>
+                  <div class="mb-3 input-group">
+                    <span class="input-group-text bg-primary text-white"><i class="bi bi-envelope-fill"></i></span>
+                    <input type="email" class="form-control rounded-end" id="mail" name="mail" required placeholder="Mail">
+                  </div>
+                  <div class="mb-3 input-group">
+                    <span class="input-group-text bg-primary text-white"><i class="bi bi-calendar3"></i></span>
+                    <input type="date" class="form-control rounded-end" id="fecha" name="fecha" required>
+                  </div>
+                  <div class="mb-3 input-group">
+                    <label for="opciones" class="input-group-text bg-primary text-white"><i
+                        class="bi bi-list-check"></i></label>
+                    <select class="form-select rounded-end" id="opciones" name="opciones" required>
+                      <option value="">Elige a tu Artista</option>
+                      <option value="opcion1">Mauricio</option>
+                      <option value="opcion2">Lola</option>
+                      <option value="opcion3">Leonardo</option>
+                      <option value="opcion4">Martin</option>
+                      <option value="opcion5">Gerson</option>
+                    </select>
+                  </div>
+                  <div class="mb-3 input-group">
+                    <span class="input-group-text bg-primary text-white"><i class="bi bi-chat-square-dots-fill"></i></span>
+                    <textarea class="form-control rounded-end" id="mensaje" name="mensaje" rows="3"
+                      placeholder="Mensaje"></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-lg btn-block btn-primary">Reservar</button>
+                </form>

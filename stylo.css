@@ -1,0 +1,134 @@
+/* fonts */
+
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800;900&display=swap");
+
+/* reset css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background-image: url(assets/background.webp);
+  
+  }
+
+h2 {
+  font-size: 2rem;
+  font-weight: 200;
+  color: aliceblue;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 200;
+  color: aliceblue;
+}
+
+h3 {
+  font-size: 2rem;
+  font-weight: 200;
+  color: aliceblue;
+}
+
+/* quitar estils y color a los links */
+
+a {
+    text-decoration: none;
+    color: darkred;
+  }
+
+  .btn.btn-primary:hover {
+    background-color: red;
+    border-color: red;
+  }
+
+  .hover-icon-btn .hover-icon {
+    display: none;
+  }
+  
+  .hover-icon-btn:hover .normal-icon {
+    display: none;
+  }
+  
+  .hover-icon-btn:hover .hover-icon {
+    display: inline-block;
+  }
+  
+  
+
+header {
+  max-width: 100%;
+  height: 80vh;
+  background-image: url(assets/banner.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  clip-path: polygon(0 0, 100% 0, 100% 80%, 50% 100%, 0 80%);
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    z-index: -1;
+}
+
+
+.banner h2 {
+
+  font-family: "Dela Gothic One", cursive;
+  color: aliceblue;
+  
+}
+
+.banner{
+    margin-top: 90px;
+    z-index: 1;
+}
+.banner a{
+    text-decoration: none;
+}
+
+/* carousel estilos */
+.carousel-inner img {
+    max-height: 500px; 
+    object-fit: cover; 
+  }
+  
+  .carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-image: none;
+}
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after {
+    content: ' ';
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background: red;
+}
+
+.carousel-control-prev-icon:after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 16 16'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e");
+}
+
+.carousel-control-next-icon:after {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23ffffff' viewBox='0 0 16 16'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+
+
+
+.card-img-top {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover; 
+}
