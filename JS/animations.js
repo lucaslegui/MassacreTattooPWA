@@ -12,11 +12,36 @@ sr.reveal('.banner', {
     distance: '-100px'
 });
 
-sr.reveal('main', {
+sr.reveal('.servicios', {
     duration: 2000,
     origin: 'top',
     distance: '-100px'
 });
+
+sr.reveal('.galeria', {
+    duration: 1000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('#historia', {
+    duration: 1000,
+    origin: 'top',
+    distance: '-100px'
+});
+
+sr.reveal('.contacto', {
+    duration: 1000,
+    origin: 'right',
+    distance: '-100px'
+});
+
+sr.reveal('.mapa', {
+    duration: 1000,
+    origin: 'left',
+    distance: '-100px'
+});
+
 
 sr.reveal('footer', {
     duration: 2000,
