@@ -1,16 +1,19 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="es-AR">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
     <link rel="shortcut icon" href="assets/favicon-32x32.png" type="image/x-icon">
-    <link rel="stylesheet" href="stylo.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css" rel="stylesheet">
-    <title>Massacre tattoo Studio (Bootstrap+PWA Edition)</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/stylo.css">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- scroll reveal -->
+    <script src="JS/ScrollReveal.js"></script>
+    <title>Massacre tattoo Studio (Bootstrap+PWA)</title>
 </head>
 
 <body>
@@ -46,7 +49,7 @@
                 </div>
             </div>
         </nav>
-        <div class="banner container d-flex flex-column align-items-center justify-content-center">
+        <div class="banner d-flex flex-column justify-content-center align-items-center">
             <h2 class="display-3">MASSACRE</h2>
             <h3 class="display-5 text-light">Tattoo Studio</h3>
             <h4 class="text-light">(Est. 1990)</h4>
@@ -64,68 +67,95 @@
             </div>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-6 col-lg-3 mb-4">
+                    <!-- Tarjeta de Tattoos -->
+                    <div class="col-md-12 mb-4">
                         <div class="card">
-                            <img src="assets/tattoo.png" alt="maquina de tatuar dibujo" class="card-img-top img-cards">
-                            <div class="card-body">
-                                <h3 class="card-title">Tattoos</h3>
-                                <p class="card-text">¿Cuántos estilos de tatuaje existen?</p>
-                                <p class="card-text">
-                                    Realista, old School o Tradicional, Neotradicional, Blackwork,
-                                    Dotwork, Japonés, Tribal o Borneo, Acuarela.
-                                </p>
-                                <p class="card-text">
-                                    Nos especializamos en todo tipo de tatuajes, tenemos propuestas
-                                    para cada estilo. ¡Tráenos tu diseño o te lo diseñamos a tu
-                                    medida y gustos, contamos con los mejores artistas para hacerlo!
-                                </p>
-                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
-                                        class="fa fa-skull hover-icon"></i></a>
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="assets/tattoo.png" alt="maquina de tatuar dibujo" class="card-img-top img-cards">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Tattoos</h3>
+                                        <p class="card-text">¿Cuántos estilos de tatuaje existen?</p>
+                                        <p class="card-text">
+                                            Realista, old School o Tradicional, Neotradicional, Blackwork,
+                                            Dotwork, Japonés, Tribal o Borneo, Acuarela.
+                                        </p>
+                                        <p class="card-text">
+                                            Nos especializamos en todo tipo de tatuajes, tenemos propuestas
+                                            para cada estilo. ¡Tráenos tu diseño o te lo diseñamos a tu
+                                            medida y gustos, contamos con los mejores artistas para hacerlo!
+                                        </p>
+                                        <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i class="fa fa-skull hover-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
+                
+                    <!-- Tarjeta de Piercing -->
+                    <div class="col-md-12 mb-4">
                         <div class="card">
-                            <img src="assets/piercing.png" alt="piercing dibujo" class="card-img-top img-cards">
-                            <div class="card-body">
-                                <h3 class="card-title">Piercing</h3>
-                                <p class="card-text">Para colocar el perforado, primero se marca con un bolígrafo
-                                    especial, el lugar a perforar, luego se pasa a perforar con la aguja. Según el
-                                    lugar, el proceso puede variar.</p>
-                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
-                                        class="fa fa-skull hover-icon"></i></a>
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="assets/piercing.png" alt="piercing dibujo" class="card-img-top img-cards">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Piercing</h3>
+                                        <p class="card-text">Para colocar el perforado, primero se marca con un bolígrafo
+                                            especial, el lugar a perforar, luego se pasa a perforar con la aguja. Según el
+                                            lugar, el proceso puede variar.</p>
+                                        <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i class="fa fa-skull hover-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
+                
+                    <!-- Tarjeta de Borrado de tatuajes con láser -->
+                    <div class="col-md-12 mb-4">
                         <div class="card">
-                            <img src="assets/borrado.png" alt="dibujo goma borrando tatuaje"
-                                class="card-img-top img-cards">
-                            <div class="card-body">
-                                <h3 class="card-title">Borrado de tatuajes con láser</h3>
-                                <p class="card-text">La tarea del láser es micropulverizar esas partículas de tinta. Al
-                                    ser más pequeñas, pueden ser eliminadas por los macrófagos, unos glóbulos blancos
-                                    que -además de destruir microorganismos presentes en la sangre- extraen las células
-                                    muertas. Es decir, “limpian” el organismo.</p>
-                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
-                                        class="fa fa-skull hover-icon"></i></a>
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="assets/borrado.png" alt="dibujo goma borrando tatuaje"
+                                        class="card-img-top img-cards">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Borrado de tatuajes con láser</h3>
+                                        <p class="card-text">La tarea del láser es micropulverizar esas partículas de tinta. Al
+                                            ser más pequeñas, pueden ser eliminadas por los macrófagos, unos glóbulos blancos
+                                            que -además de destruir microorganismos presentes en la sangre- extraen las células
+                                            muertas. Es decir, “limpian” el organismo.</p>
+                                        <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i class="fa fa-skull hover-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-3 mb-4">
+                
+                    <!-- Tarjeta de Jewelry -->
+                    <div class="col-md-12 mb-4">
                         <div class="card">
-                            <img src="assets/jewelry.png" alt="dientes con diamantes dibujo"
-                                class="card-img-top img-cards">
-                            <div class="card-body">
-                                <h3 class="card-title">Jewelry</h3>
-                                <p class="card-text">Las gemas dentales son incrustaciones de joyas de diamantes de
-                                    imitación que se adhiere a la superficie del diente por medio de un adhesivo.</p>
-                                <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i
-                                        class="fa fa-skull hover-icon"></i></a>
+                            <div class="row no-gutters">
+                                <div class="col-md-4">
+                                    <img src="assets/jewelry.png" alt="dientes con diamantes dibujo" class="card-img-top img-cards">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h3 class="card-title">Jewelry</h3>
+                                        <p class="card-text">Las gemas dentales son incrustaciones de joyas de diamantes de
+                                            imitación que se adhiere a la superficie del diente por medio de un adhesivo.</p>
+                                        <a href="#" class="btn btn-primary d-block w-100 hover-icon-btn">Solicitar <i class="fa fa-skull hover-icon"></i></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </section>
 
@@ -260,16 +290,13 @@
             </div>
         </section>
 
-
-          
-
-        <section class="video-section container m-5" id="video">
+        <section class="video-section m-5" id="video">
             <div class="presentacion-servicios">
                 <h2 class="text-center text-white m-5 pt-5">NUESTRO ESTUDIO EN ACCIÓN</h2>
             </div>
             <div class="video d-flex justify-content-center">
 
-                <button type="button" class="btn btn-outline-danger btn-lg" data-bs-toggle="modal"
+                <button type="button" class="btn btn-danger btn-lg custom-hover" data-bs-toggle="modal"
                     data-bs-target="#videoModal">
                     Ver video
                 </button>
@@ -284,7 +311,7 @@
                         </div>
                         <div class="modal-body">
                             <div class="embed-responsive embed-responsive-16by9">
-                                <iframe width="760" height="315" class="embed-responsive-item" id="videoIframe"
+                                <iframe class="embed-responsive-item" id="videoIframe"
                                     src="https://www.youtube.com/embed/st2GHdl0YlU?controls=0" allowfullscreen></iframe>
                             </div>
                         </div>
@@ -299,7 +326,7 @@
 
         <section class="Reservas container" id="contacto">
             <div class="presentacion-servicios">
-                <h2 class="text-center text-white text-xl  mb-5">RESERVÁ TU CITA</h2>
+                <h2 class="text-center text-white m-5 pt-5">RESERVÁ TU CITA</h2>
             </div>
             <div class="row">
                 <article class="contacto col-md-6">
@@ -368,14 +395,13 @@
             </div>
         </section>
     </main>
-
     <footer class="bg-light text-center text-lg-start">
         <div class="container p-4">
             <div class="row">
                 <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
                     <h5 class="text-uppercase">Lucas Leguizamón</h5>
                     <p>
-                        Segundo Parcial - Interacción con dispositivos moviles | <strong>DWN2BP</strong> | Prof.: Camila
+                        TP Final - Interacción con dispositivos moviles | <strong>DWN2BP</strong> | Prof.: Camila
                         Marcos Galbán </p>
                 </div>
                 <div class="col-lg-6 col-md-6 mb-4 mb-md-0">
@@ -383,14 +409,14 @@
                     <ul class="list-unstyled">
                         <li class="my-2">
                             <a href="https://www.instagram.com/lucaslegui.jpg/" class="text-dark"><i
-                                    class="bi bi-instagram"></i> Instagram</a>
+                                    class="fab fa-instagram"></i> Instagram</a>
                         </li>
                         <li class="my-2">
-                            <a href="https://github.com/lucaslegui/" class="text-dark"><i class="bi bi-github"></i>
+                            <a href="https://github.com/lucaslegui/" class="text-dark"><i class="fab fa-github"></i>
                                 Github</a>
                         </li>
                         <li class="my-2">
-                            <a href="https://twitter.com/lucaslegui1107" class="text-dark"><i class="bi bi-twitter"></i>
+                            <a href="https://twitter.com/lucaslegui1107" class="text-dark"><i class="fab fa-twitter"></i>
                                 Twitter</a>
                         </li>
                     </ul>
@@ -404,12 +430,11 @@
         </div>
     </footer>
     <!-- javascript -->
+    <script src="JS/bootstrap.min.js"></script>
+    <script src="JS/js.js"></script>
     <script src="https://kit.fontawesome.com/167f6d5e62.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
-        crossorigin="anonymous"></script>
-    <script src="js.js"></script>
-
+    <script src="JS/animations.js"></script>
+    
 </body>
 
 </html>
